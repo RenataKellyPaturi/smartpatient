@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	
+	padding: 0;
+}
+
+.row{
+  margin-left: 10px;
+}
+.direitas{
+	float: left;
+}
+.comentarios{	
+	margin-top: 40px;
+	margin-bottom:  40px;
+}
+.form{
+	margin-bottom:  80px;
+    background-color: #F0F0F0;
+
+}
+.footer{
+	background-color: #1c94c4;
+	margin-top: 18px;
+}
+.copyright{
+	color:#FFF;
+}
+.logo-footer{
+	height: 30px;
+}
+.copyright{
+	font-size: 12px;
+}
+main{
+	padding-top: 50px;
+}
+.fullscreen{
+	width: 100%;
+}

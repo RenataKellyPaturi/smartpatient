@@ -1,0 +1,227 @@
+.compensar {
+	margin-top: 20px;
+}
+a.navbar-brand {
+	 
+	width: 50px;
+	height: 50px; 
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0px 0px;
+    margin-right: -10px;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+/* DASHBOARD */
+.src-image {
+  display: none;
+}
+
+.card {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #CCC;
+  border-radius: 8px;
+  text-align: center;
+  padding: 0;
+  background-color: #284c79;
+  color: rgb(136, 172, 217);
+}
+
+.card .header-bg{
+  /* This stretches the canvas across the entire hero unit */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px #FFF solid;
+  /* This positions the canvas under the text */
+  z-index: 1;
+}
+.card .avatar {
+  position: relative;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.card .avatar img {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(0,0,30,0.8);
+}
+
+/*
+ * Placeholder dashboard
+ */
+ 
+ .redondo {
+
+ padding: 20%;
+ border-radius: 50%;
+ -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  
+ }
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.redondo ~ span.info {
+	display: none; 
+}
+
+.redondo:hover ~ span.info {
+	display: inline;
+	position: absolute;
+	text-align: center;
+	margin-left: -25%;
+	z-index: 9999;	
+}
+
+/*cadastro de profissional*/
+.page-bar {
+    padding: 0px;
+    background-color: #f7f7f7;
+    margin-bottom: 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+@media (min-width: 992px)
+.page-content-wrapper .page-content {
+    margin-left: 235px;
+    margin-top: 0px;
+    min-height: 600px;
+    padding: 25px 20px 10px 20px;
+}
+.page-title {
+    padding: 0px;
+    font-size: 28px;
+    letter-spacing: -1px;
+    display: block;
+    color: #666;
+    margin: 0px 0px 15px 0px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+.page-bar .page-breadcrumb {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    list-style: none;
+
+}
+.page-breadcrumb li {
+    display: inline;  
+}
+ul li a {
+  padding: 2px 10px;
+  color: #8B8B8B;
+  text-decoration: none;
+}
+.page-bar .page-breadcrumb > li > i {
+    color: #aaa;
+    font-size: 14px;
+    text-shadow: none;
+}
+
+.redondo-m {
+
+ padding: 10%;
+ border-radius: 20%;
+ -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  margin: 5px;
+  
+ }
+.funcionalidadesescolher {
+	background-color: #75BEEB;
+	min-height: 300px; 
+	z-index: 0;	
+}
+.funcionalidadesescolhidas {
+	background-color: #b3dffa;
+	min-height: 300px;
+	z-index: 0;
+}
+
+
+
+.funcionalidadesescolher > a , .funcionalidadesescolhidas > a {
+	z-index: 9999;
+
+	}
+	.setaescolherdirecao {
+	min-height: 300px;
+	}
+	.setaescolherdirecao i {
+		padding-top: 50%;
+	}
+	
